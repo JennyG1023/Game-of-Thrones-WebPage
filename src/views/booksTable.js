@@ -122,11 +122,6 @@ class BooksTable extends Component {
                     columns={subComponentColumns}
                     defaultPageSize={1}
                     showPagination={false}
-                    // SubComponent={row => {
-                    //   return (
-                    //     <div style={{ padding: "20px" }}>Sub Component!</div>
-                    //   );
-                    // }}
                   />
                 </div>
               );
@@ -144,7 +139,7 @@ const mapStateToProps = state => {
       singleBook,
     })
   };
-  
+   
   const mapDispatchToProps = dispatch => { 
     return({
       fetchSingleBook: () => { 

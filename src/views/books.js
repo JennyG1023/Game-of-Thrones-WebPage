@@ -21,7 +21,6 @@ class Books extends Component {
       <div>
         <h3>Books</h3>
         <BooksTable allBooksData={allBooks} 
-        // singleBookData={singleBookData}
         />
       </div>
     )
