@@ -13,7 +13,7 @@ class Houses extends Component {
     const { allHouses } = this.props;
     return (
       <div>
-        <h3>Books</h3>
+        <h3>Houses</h3>
         <HousesTable allHousesData={allHouses} />
       </div>
     )

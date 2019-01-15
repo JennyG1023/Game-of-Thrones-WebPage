@@ -8,17 +8,19 @@ import "react-table/react-table.css";
 
 const mainColumns = [
   {
+    Header: "Noble Houses",
     columns: [
       {
-        Header: "Noble House Name",
+        Header: "Name",
         accessor: "name",
       }
     ]
   },
   {
+    Header: "More Information",
     columns: [
       {
-        Header: "region",
+        Header: "Region",
         accessor: "region",
       }
     ]

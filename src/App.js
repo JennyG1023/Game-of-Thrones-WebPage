@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h3>Welcome to GoT!</h3>
+        <h3>Welcome to the Game of Thrones Interest Page!</h3>
         <Nav />
         <Router />
       </div>

@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-// import { render } from "react-dom";
 import _ from "lodash";
-import axios from 'axios';
+import { connect } from 'react-redux';
+import { withRouter } from 'react-router-dom';
+import { fetchSingleBook } from '../store';
 
 // Import React Table
 import ReactTable from "react-table";
 import "react-table/react-table.css";
 
-import { connect } from 'react-redux';
-import { withRouter } from 'react-router-dom';
-import { fetchSingleBook } from '../store';
 
 const mainColumns = [
   {
@@ -23,7 +21,7 @@ const mainColumns = [
     ]
   },
   {
-    Header: "Info",
+    Header: "More Information",
     columns: [
       {
         Header: "Released Date",
